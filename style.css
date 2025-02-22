@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 #park {
     min-height: 250px;
     display: flex;
@@ -21,12 +27,38 @@
     flex-direction: column;
     min-height: 100px;
     background-color:azure;
-    width: 250px;
+    width: 45vw;
 }
 
 .color-header {
     height: 5px;
     align-self: stretch;
+}
+
+.add-property-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 8px;
+}
+
+.add-property-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.add-property-button {
+    flex: 1;
+}
+
+.add-property-name {
+    flex: 2;
+}
+
+.add-property-value {
+    flex: 2;
 }
 
 .base-target {
