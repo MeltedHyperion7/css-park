@@ -3,6 +3,30 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: aliceblue;
+    margin: 16px 0;
+}
+
+#controls {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: aquamarine; */
+    margin: 16px 0;
+}
+
+.control {
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    background-color:azure;
+    width: 250px;
+}
+
+.color-header {
+    height: 5px;
+    align-self: stretch;
 }
 
 .base-target {
