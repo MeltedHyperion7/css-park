@@ -1,0 +1,13 @@
+#park {
+    min-height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.base-target {
+    background-color: rebeccapurple;
+    width: 200px;
+    height: 200px;
+    margin: 8px;
+}
